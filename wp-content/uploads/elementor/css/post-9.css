@@ -1,0 +1,142 @@
+.elementor-kit-9 {
+    --e-global-color-primary: #61CE70;
+    --e-global-color-secondary: #54595F;
+    --e-global-color-text: #7A7A7A;
+    --e-global-color-accent: #61CE70;
+    --e-global-color-dcd2fa1: #61CE70;
+    --e-global-color-b0f5881: #61CE70;
+    --e-global-typography-primary-font-family: "Titan One";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-text-font-family: "Golos Text";
+    --e-global-typography-text-font-size: 17px;
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-text-line-height: 1.41em;
+    --e-global-typography-d569705-font-family: "Titan One";
+    --e-global-typography-d569705-font-size: 12px;
+    --e-global-typography-d569705-font-weight: 400;
+    --e-global-typography-d569705-text-transform: uppercase;
+    --e-global-typography-d569705-letter-spacing: 1px;
+    --e-global-typography-68baa2e-font-weight: 500;
+    background-color: #FFFFFF;
+    --lqd-body-font-family: var( --e-global-typography-text-font-family), Sans-serif;
+    --lqd-body-font-size: var( --e-global-typography-text-font-size);
+    --lqd-body-font-weight: var( --e-global-typography-text-font-weight);
+    --lqd-body-line-height: var( --e-global-typography-text-line-height);
+    --lqd-body-text-color: #0000008C;
+    --lqd-heading-font-family: "Golos Text", Sans-serif;
+    --lqd-heading-color: #000000;
+    --lqd-h2-font-size: 46px;
+    --lqd-h2-font-weight: 500;
+    --lqd-h3-font-size: 36px;
+    --lqd-h3-font-weight: 500;
+    --lqd-h6-font-family: "JetBrains Mono", Sans-serif;
+    --lqd-h6-font-size: 12px;
+    --lqd-h6-text-transform: uppercase;
+    --lqd-h6-line-height: 1em;
+    --lqd-h6-letter-spacing: 1px;
+    --lqd-btn-pt: 24px;
+    --lqd-btn-pe: 36px;
+    --lqd-btn-pb: 24px;
+    --lqd-btn-ps: 36px;
+    --lqd-btn-color: #FFFFFF;
+    --lqd-btn-bg: var(--e-global-color-b0f5881);
+    --lqd-btn-brrt: 14px;
+    --lqd-btn-brre: 14px;
+    --lqd-btn-brrb: 14px;
+    --lqd-btn-brrs: 14px;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1140px;
+}
+
+.e-con {
+    --container-max-width: 1140px;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-block-end: 0px;
+}
+
+.elementor-element {
+    --widgets-spacing: 0px 0px;
+}
+
+{}
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+.elementor-kit-9.has-sidebar #lqd-contents-wrap {
+    padding-top: 25px;
+}
+
+.elementor-kit-9 #lqd-gdpr {
+    font-size: 14px;
+}
+
+[data-lqd-page-color-scheme=dark] {
+    --lqd-body-text-color: #FFFFFF72;
+}
+
+[data-lqd-page-color-scheme=dark],
+.elementor-kit-9[data-lqd-page-color-scheme=dark] {
+    background: #000000;
+}
+
+[data-lqd-page-color-scheme=dark] .lqd-btn,
+.elementor-kit-9 [data-lqd-color-scheme=dark] .lqd-btn {
+    --lqd-btn-color: #FFFFFF;
+    --lqd-btn-bg: var(--e-global-color-accent);
+}
+
+[data-lqd-page-color-scheme=dark] .lqd-btn:hover,
+.elementor-kit-9 [data-lqd-color-scheme=dark] .lqd-btn:hover {
+    --lqd-btn-bg: #232B4E;
+}
+
+[data-lqd-page-color-scheme=dark],
+.elementor-kit-9 [data-lqd-color-scheme=dark] {
+    --lqd-heading-color: #FFFFFF;
+}
+
+.elementor-kit-9 .lqd-btn {
+    font-family: "JetBrains Mono", Sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: 1px;
+}
+
+.elementor-kit-9 .lqd-btn:hover {
+    --lqd-btn-bg: var(--e-global-color-dcd2fa1);
+    transform: scale(1.1);
+}
+
+@media(max-width:1024px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1024px;
+    }
+    .e-con {
+        --container-max-width: 1024px;
+    }
+    .elementor-kit-9 {
+        --lqd-body-font-size: var( --e-global-typography-text-font-size);
+        --lqd-body-line-height: var( --e-global-typography-text-line-height);
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px;
+    }
+    .e-con {
+        --container-max-width: 767px;
+    }
+    .elementor-kit-9 {
+        --lqd-body-font-size: var( --e-global-typography-text-font-size);
+        --lqd-body-line-height: var( --e-global-typography-text-line-height);
+        --lqd-h2-font-size: 10vw;
+    }
+}
